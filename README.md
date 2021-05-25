@@ -30,6 +30,8 @@ https://docs.python.org/3/library/functions.html
 
 Write a function that asks the user for input, and then computes the sum of all the ascii values of the characters. 
 
+- "hello" -> 104 + 101 + 108 + 108 + 111 = 532 
+
 
 Part 2:
 Given a list of words (from user input) determine which word has the highest ascii value.  
@@ -43,10 +45,10 @@ Dates can be written differently depending where you are in the world
 05.03.2021 (the fifth of march 2021 -> Europe, the 3th of may 2021 -> US)
 
 
-Sample Inputs:
-05.05.2021 -> non-ambiguous
-03.05.2021 -> ambiguous
-05.03.2021 -> ambiguous 
+Sample Inputs (strings '05.05.2021'):
+- 05.05.2021 -> non-ambiguous
+- 03.05.2021 -> ambiguous
+- 05.03.2021 -> ambiguous 
 
 
 1) Write a function that detects if a date, written in the format NN.NN.NNNN where n is a digit [0-9] is ambiguous 
@@ -59,9 +61,20 @@ Analyze a string to check if it contains two of the same letter in a row. For ex
 Define a function named double_letters that takes a single parameter. The parameter is a string. Your function must return True if there are two identical letters in a row in the string, and False otherwise.
 
 Sample Inputs:
-hello -> True
-nono ->  False 
-sunday -> False
-racecar -> False
+- hello -> True
+- nono ->  False 
+- sunday -> False
+- racecar -> False
+
+### Converting Numpy Array Datatypes
+The following list represents tempuratures in New York 
+
+tempuratures = ['76.5', '79.1','80.3', '78.3','75.6', '73.2']
+
+1. Write a function that takes a string list of tempuratures 
+2. Convert that string list into a list of floats and calculate the average
+
+###### Hints:
+- use .astype()
 
  
