@@ -67,7 +67,7 @@ Sample Inputs:
 - racecar -> False
 
 ### Converting Numpy Array Datatypes
-The following list representes tempuratures in New York 
+The following list represents tempuratures in New York 
 
 tempuratures = ['76.5', '79.1','80.3', '78.3','75.6', '73.2']
 
