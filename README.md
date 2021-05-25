@@ -44,9 +44,9 @@ Dates can be written differently depending where you are in the world
 
 
 Sample Inputs:
-05.05.2021 -> non-ambiguous
-03.05.2021 -> ambiguous
-05.03.2021 -> ambiguous 
+- 05.05.2021 -> non-ambiguous
+- 03.05.2021 -> ambiguous
+- 05.03.2021 -> ambiguous 
 
 
 1) Write a function that detects if a date, written in the format NN.NN.NNNN where n is a digit [0-9] is ambiguous 
@@ -59,9 +59,9 @@ Analyze a string to check if it contains two of the same letter in a row. For ex
 Define a function named double_letters that takes a single parameter. The parameter is a string. Your function must return True if there are two identical letters in a row in the string, and False otherwise.
 
 Sample Inputs:
-hello -> True
-nono ->  False 
-sunday -> False
-racecar -> False
+- hello -> True
+- nono ->  False 
+- sunday -> False
+- racecar -> False
 
  
