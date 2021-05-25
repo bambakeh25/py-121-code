@@ -66,4 +66,15 @@ Sample Inputs:
 - sunday -> False
 - racecar -> False
 
+### NUMPY Examples
+The following list representes tempuratures in New York 
+
+tempuratures = ['76.5', '79.1','80.3', '78.3','75.6', '73.2']
+
+1. Write a function that takes reads a string list of tempuratures 
+2. Convert that string list into a list of floats and calculate the average
+
+###### Hints:
+- use .astype()
+
  
