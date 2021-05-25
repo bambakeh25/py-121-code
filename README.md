@@ -45,7 +45,7 @@ Dates can be written differently depending where you are in the world
 05.03.2021 (the fifth of march 2021 -> Europe, the 3th of may 2021 -> US)
 
 
-Sample Inputs:
+Sample Inputs (strings '05.05.2021'):
 - 05.05.2021 -> non-ambiguous
 - 03.05.2021 -> ambiguous
 - 05.03.2021 -> ambiguous 
